@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+1000.times do
+  Article.create( { title: Faker::TwinPeaks.quote.capitalize, content: Faker::Lorem.sentence(100, true, 100) } )
+end
