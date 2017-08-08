@@ -5,7 +5,7 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-5 mb-5"><%= @article.title %></h1>
-    <p class="lead"><%= @article.content %></p>
+    <p class="lead"><%= Kramdown::Document.new(@article.content).to_html %></p>
   </div>
 </div>
 <div class="btn-group btn-group-sm mt-5" role="group">

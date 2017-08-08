@@ -29,7 +29,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'kramdown', '~> 1.14'
+gem 'ace-rails-ap'
+gem 'bootstrap-markdown-editor-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

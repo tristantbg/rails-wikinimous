@@ -13,3 +13,8 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+//= require jquery
+//= require ace-rails-ap
+//= require ace/theme-chaos
+//= require ace/mode-markdown
+//= require bootstrap-markdown-editor
